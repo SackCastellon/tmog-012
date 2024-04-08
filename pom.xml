@@ -13,6 +13,7 @@
         <version.logback>1.4.14</version.logback>
         <version.slf4j>2.0.11</version.slf4j>
         <version.junit>5.10.2</version.junit>
+        <assertj.version>3.25.1</assertj.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -52,6 +53,12 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>${assertj.version}</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 </project>
